@@ -1,6 +1,7 @@
 import { ArrowDownRight } from "lucide-react";
 import { ExternalLink } from "lucide-react";
 import { Star } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
@@ -120,7 +121,11 @@ export const Hero12 = () => {
         <div className="magicpattern absolute inset-x-0 top-0 -z-10 flex h-full w-full items-center justify-center opacity-100" />
         <div className="mx-auto flex max-w-5xl flex-col items-center">
           <div className="z-10 flex flex-col items-center gap-6 text-center">
-            <img src="https://shadcnblocks.com/images/block/block-1.svg" alt="logo" className="h-16" />
+            <img
+              src="https://shadcnblocks.com/images/block/block-1.svg"
+              alt="logo"
+              className="h-16"
+            />
             <Badge variant="outline">UI Blocks</Badge>
             <div>
               <h1 className="mb-6 text-pretty text-2xl font-bold lg:text-5xl">
@@ -147,7 +152,7 @@ export const Hero12 = () => {
                   href="#"
                   className={cn(
                     buttonVariants({ variant: "outline" }),
-                    "group px-3",
+                    "group px-3"
                   )}
                 >
                   <img
@@ -160,7 +165,7 @@ export const Hero12 = () => {
                   href="#"
                   className={cn(
                     buttonVariants({ variant: "outline" }),
-                    "group px-3",
+                    "group px-3"
                   )}
                 >
                   <img
@@ -174,7 +179,7 @@ export const Hero12 = () => {
                   href="#"
                   className={cn(
                     buttonVariants({ variant: "outline" }),
-                    "group px-3",
+                    "group px-3"
                   )}
                 >
                   <img
@@ -187,7 +192,7 @@ export const Hero12 = () => {
                   href="#"
                   className={cn(
                     buttonVariants({ variant: "outline" }),
-                    "group px-3",
+                    "group px-3"
                   )}
                 >
                   <img
