@@ -22,12 +22,13 @@ import Footer1 from "@/components/sections/footer/Footer1";
 import Footer2 from "@/components/sections/footer/Footer2";
 import ArticleWithSidebar from "@/components/sections/content/ArticleWithSidebar";
 import Pricing2 from "@/components/sections/pricing/Pricing2";
+import FeaturesCarousel from "@/components/sections/features/FeaturesCarousel";
 
 export default function Home() {
   return (
     <Container>
       <Navbar1 />
-      {/* <Hero1 />
+      <Hero1 />
       <Hero2 />
       <Hero3 />
       <Hero4 />
@@ -45,12 +46,13 @@ export default function Home() {
       <Contact2 />
       <Careers1 />
       <Careers2 />
-      <CTA1 /> */}
-      {/* <Footer1 /> */}
-      {/* <Pricing1 /> */}
+      <CTA1 />
+      <Pricing1 />
       <Pricing2 />
       <Blog1 />
       <ArticleWithSidebar />
+      <FeaturesCarousel />
+      <Footer1 />
       <Footer2 />
     </Container>
   );
