@@ -11,7 +11,7 @@ import Features3 from "@/components/sections/features/Features3";
 import Features4 from "@/components/sections/features/Features4";
 import { Hero1, Hero2, Hero3, Hero4 } from "@/components/sections/hero";
 import Pricing1 from "@/components/sections/pricing/Pricing1";
-import Testimonial1 from "@/components/sections/testimonials/Testimonials";
+import Testimonial1 from "@/components/sections/testimonials/Testimonials1";
 import Testimonials2 from "@/components/sections/testimonials/Testimonials2";
 import Contact2 from "@/components/sections/contact/Contact2";
 import Blog1 from "@/components/sections/blog/Blog1";
