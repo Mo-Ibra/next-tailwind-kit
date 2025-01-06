@@ -20,12 +20,14 @@ import Careers2 from "@/components/sections/careers/Careers2";
 import CTA1 from "@/components/sections/cta/Cta1";
 import Footer1 from "@/components/sections/footer/Footer1";
 import Footer2 from "@/components/sections/footer/Footer2";
+import ArticleWithSidebar from "@/components/sections/content/ArticleWithSidebar";
+import Pricing2 from "@/components/sections/pricing/Pricing2";
 
 export default function Home() {
   return (
     <Container>
       <Navbar1 />
-      <Hero1 />
+      {/* <Hero1 />
       <Hero2 />
       <Hero3 />
       <Hero4 />
@@ -35,18 +37,20 @@ export default function Home() {
       <Features2 />
       <Features3 />
       <Features4 />
-      <Pricing1 />
       <Register />
       <Login />
       <Faq1 />
       <Faq2 />
       <Contact1 />
       <Contact2 />
-      <Blog1 />
       <Careers1 />
       <Careers2 />
-      <CTA1 />
-      <Footer1 />
+      <CTA1 /> */}
+      {/* <Footer1 /> */}
+      {/* <Pricing1 /> */}
+      <Pricing2 />
+      <Blog1 />
+      <ArticleWithSidebar />
       <Footer2 />
     </Container>
   );
