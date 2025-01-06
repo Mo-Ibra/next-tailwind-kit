@@ -23,6 +23,10 @@ import Footer2 from "@/components/sections/footer/Footer2";
 import ArticleWithSidebar from "@/components/sections/content/ArticleWithSidebar";
 import Pricing2 from "@/components/sections/pricing/Pricing2";
 import FeaturesCarousel from "@/components/sections/features/FeaturesCarousel";
+import { Features5 } from "@/components/sections/features";
+import { Cards1, Cards2 } from "@/components/sections/cards";
+import { Categories } from "@/components/sections/categories";
+import { Testimonials3 } from "@/components/sections/testimonials";
 
 export default function Home() {
   return (
@@ -52,6 +56,11 @@ export default function Home() {
       <Blog1 />
       <ArticleWithSidebar />
       <FeaturesCarousel />
+      <Features5 />
+      <Cards1 />
+      <Cards2 />
+      <Categories />
+      <Testimonials3 />
       <Footer1 />
       <Footer2 />
     </Container>
