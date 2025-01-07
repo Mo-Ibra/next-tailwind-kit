@@ -13,10 +13,10 @@ const Contact2 = () => {
             We&apos;d love to assist you. Fill out the form or drop us an email.
           </p>
         </div>
-        <div className="grid gap-10 md:grid-cols-3">
-          <div>
-            <span className="mb-3 flex size-12 flex-col items-center justify-center rounded-full bg-accent">
-              <Mail className="h-6 w-auto" />
+        <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="text-center shadow-md border rounded-xl p-16">
+            <span className="mb-3 flex size-20 flex-col mx-auto items-center justify-center rounded-full bg-accent">
+              <Mail className="h-8 w-auto" />
             </span>
             <p className="mb-2 text-lg font-semibold">Email Us</p>
             <p className="mb-3 text-muted-foreground">
@@ -26,9 +26,9 @@ const Contact2 = () => {
               abc@example.com
             </a>
           </div>
-          <div>
-            <span className="mb-3 flex size-12 flex-col items-center justify-center rounded-full bg-accent">
-              <MapPin className="h-6 w-auto" />
+          <div className="text-center shadow-md border rounded-lg p-16">
+            <span className="mb-3 flex size-20 flex-col mx-auto items-center justify-center rounded-full bg-accent">
+              <MapPin className="h-8 w-auto" />
             </span>
             <p className="mb-2 text-lg font-semibold">Visit Us</p>
             <p className="mb-3 text-muted-foreground">
@@ -38,9 +38,9 @@ const Contact2 = () => {
               1234 Street Name, City Name
             </a>
           </div>
-          <div>
-            <span className="mb-3 flex size-12 flex-col items-center justify-center rounded-full bg-accent">
-              <Phone className="h-6 w-auto" />
+          <div className="text-center shadow-md border rounded-lg p-16">
+            <span className="mb-3 flex size-20 flex-col mx-auto items-center justify-center rounded-full bg-accent">
+              <Phone className="h-8 w-auto" />
             </span>
             <p className="mb-2 text-lg font-semibold"> Call Us</p>
             <p className="mb-3 text-muted-foreground">

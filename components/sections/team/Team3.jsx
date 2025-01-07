@@ -2,21 +2,25 @@ import Image from "next/image";
 
 const team = [
   {
+    id: 1,
     name: "Megan",
     title: "UI/Ux Expert",
     imageUrl: "https://shadcnblocks.com/images/block/avatar-1.webp",
   },
   {
+    id: 2,
     name: "Mohamed Ibrahim",
     title: "Full stack developer",
     imageUrl: "https://shadcnblocks.com/images/block/avatar-2.webp",
   },
   {
+    id: 3,
     name: "John Doe",
     title: "Software engineer",
     imageUrl: "https://shadcnblocks.com/images/block/avatar-3.webp",
   },
   {
+    id: 4,
     name: "Steven Smith",
     title: "Product manager",
     imageUrl: "https://shadcnblocks.com/images/block/avatar-4.webp",
@@ -36,7 +40,7 @@ const Team3 = () => {
         </div>
         <div className="grid md:grid-cols-2 gap-8 lg:grid-cols-4">
           {team.map((person) => (
-            <div key={person.name} className="mx-auto">
+            <div key={person.id} className="mx-auto">
               <Image
                 alt="Team Image"
                 src={person.imageUrl}

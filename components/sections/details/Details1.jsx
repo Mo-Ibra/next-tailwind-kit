@@ -15,6 +15,7 @@ import { Separator } from "@/components/ui/separator";
 
 const curriculum = [
   {
+    id: 1,
     title: "Introductions",
     lessons: [
       { id: 1, title: "Lesson 1", isFree: true },
@@ -24,6 +25,7 @@ const curriculum = [
     ],
   },
   {
+    id: 2,
     title: "Mastery",
     lessons: [
       { id: 5, title: "Lesson 5", isFree: true },
@@ -145,10 +147,10 @@ function Details1() {
             />
             <div className="space-y-8">
               <h3 className="text-2xl font-bold">Curriculum</h3>
-              {curriculum.map((section, index) => (
-                <>
-                  <h4 className="text-xl font-bold">{section.title}</h4>
-                  <Card key={index}>
+              {curriculum.map((section) => (
+                <div key={section.id}>
+                  <h4 className="text-xl font-bold my-4">{section.title}</h4>
+                  <Card>
                     <CardHeader>
                       <CardTitle>{section.title}</CardTitle>
                     </CardHeader>
@@ -183,7 +185,7 @@ function Details1() {
                       </div>
                     </CardContent>
                   </Card>
-                </>
+                </div>
               ))}
             </div>
           </div>

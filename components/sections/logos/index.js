@@ -1,0 +1,1 @@
+export { default as Logos1 } from './Logos1';

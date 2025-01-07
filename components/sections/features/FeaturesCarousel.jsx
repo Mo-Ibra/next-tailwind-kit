@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Carousel,
   CarouselContent,
@@ -8,6 +10,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
+import AutoScroll from "embla-carousel-auto-scroll";
 
 const features = [
   {
@@ -60,7 +63,8 @@ const features = [
     title: "Tailwind",
     description:
       "Tailwind CSS is a utility-first CSS framework that enables developers to build custom designs.",
-    imageUrl: "https://www.shadcnblocks.com/images/block/logos/tailwind-small.svg",
+    imageUrl:
+      "https://www.shadcnblocks.com/images/block/logos/tailwind-small.svg",
     features: [
       {
         title: "Utility-First Approach",
@@ -76,7 +80,7 @@ const features = [
         title: "Customization Flexibility",
         description:
           "Tailwind CSS offers extensive customization options, enabling developers to create unique designs without writing additional CSS.",
-      }
+      },
     ],
   },
   {
@@ -106,7 +110,7 @@ const features = [
 
 function FeaturesCarousel() {
   return (
-    <section className="py-32">
+    <section className="py-32 overflow-hidden">
       <div className="container mx-auto">
         <div className="mb-6">
           <h2 className="text-4xl font-bold">
@@ -116,7 +120,11 @@ function FeaturesCarousel() {
             You can do it. You can acheive it.
           </p>
         </div>
-        <Carousel className="w-full">
+        <Carousel
+          className="w-full"
+          opts={{ loop: true }}
+          plugins={[AutoScroll({ playOnInit: true })]}
+        >
           <CarouselContent className="-ml-4">
             {features.map((feature, index) => (
               <CarouselItem
