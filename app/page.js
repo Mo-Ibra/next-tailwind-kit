@@ -22,7 +22,7 @@ import {
   Testimonials3,
 } from "@/components/sections/testimonials";
 import { Login, Register } from "@/components/sections/auth";
-import { Faq1, Faq2 } from "@/components/sections/faq";
+import { Faq1, Faq2, Faq3 } from "@/components/sections/faq";
 import { Contact1, Contact2 } from "@/components/sections/contact";
 import { Careers1, Careers2 } from "@/components/sections/careers";
 import { CTA1 } from "@/components/sections/cta";
@@ -41,41 +41,41 @@ export default function Home() {
     <>
       <Container>
         <Navbar1 />
-        {/* <Hero1 /> */}
-        {/* <Hero2 /> */}
-        {/* <Hero3 /> */}
-        {/* <Hero4 /> */}
-        {/* <Testimonials1 /> */}
-        {/* <Testimonials2 /> */}
-        {/* <Testimonials3 /> */}
-        {/* <Features1 /> */}
-        {/* <Features2 /> */}
-        {/* <Features3 /> */}
-        {/* <Features4 /> */}
-        {/* <Register /> */}
-        {/* <Login /> */}
-        {/* <Faq1 /> */}
-        {/* <Faq2 /> */}
-        {/* Faq3 from job board */}
-        {/* <Contact1 />  */}
-        {/* <Contact2 /> */}
-        {/* <Careers1 /> */}
-        {/* <Careers2 /> */}
-        {/* <CTA1 /> */}
-        {/* <Pricing1 /> */}
-        {/* <Pricing2 /> */}
-        {/* <Blog1 /> */}
-        {/* <ArticleWithSidebar /> */}
-        {/* <FeaturesCarousel /> */}
-        {/* <Features5 /> */}
-        {/* <Cards1 /> */}
-        {/* <Cards2 /> */}
-        {/* <CardsWithSidebar1 /> */}
-        {/* <CardsWithSidebar2 /> */}
-        {/* <Categories /> */}
-        {/* <Team1 /> */}
-        {/* <Team2 /> */}
-        {/* <Team3 /> */}
+        <Hero1 />
+        <Hero2 />
+        <Hero3 />
+        <Hero4 />
+        <Testimonials1 />
+        <Testimonials2 />
+        <Testimonials3 />
+        <Features1 />
+        <Features2 />
+        <Features3 />
+        <Features4 />
+        <Register />
+        <Login />
+        <Faq1 />
+        <Faq2 />
+        <Faq3 />
+        <Contact1 /> 
+        <Contact2 />
+        <Careers1 />
+        <Careers2 />
+        <CTA1 />
+        <Pricing1 />
+        <Pricing2 />
+        <Blog1 />
+        <ArticleWithSidebar />
+        <FeaturesCarousel />
+        <Features5 />
+        <Cards1 />
+        <Cards2 />
+        <CardsWithSidebar1 />
+        <CardsWithSidebar2 />
+        <Categories />
+        <Team1 />
+        <Team2 />
+        <Team3 />
       </Container>
       <Breadcrumb1 />
       <Container>
