@@ -1,35 +1,20 @@
 import Container from "@/components/layout/Container";
 import Navbar1 from "@/components/layout/Navbar";
-import Login from "@/components/sections/auth/login/Login";
-import Register from "@/components/sections/auth/register/Register";
-import Contact1 from "@/components/sections/contact/Contact1";
-import Faq1 from "@/components/sections/faq/Faq1";
-import Faq2 from "@/components/sections/faq/Faq2";
-import Features1 from "@/components/sections/features/Features1";
-import Features2 from "@/components/sections/features/Features2";
-import Features3 from "@/components/sections/features/Features3";
-import Features4 from "@/components/sections/features/Features4";
 import { Hero1, Hero2, Hero3, Hero4 } from "@/components/sections/hero";
-import Pricing1 from "@/components/sections/pricing/Pricing1";
-import Testimonial1 from "@/components/sections/testimonials/Testimonials1";
-import Testimonials2 from "@/components/sections/testimonials/Testimonials2";
-import Contact2 from "@/components/sections/contact/Contact2";
-import Blog1 from "@/components/sections/blog/Blog1";
-import Careers1 from "@/components/sections/careers/Careers1";
-import Careers2 from "@/components/sections/careers/Careers2";
-import CTA1 from "@/components/sections/cta/Cta1";
-import Footer1 from "@/components/sections/footer/Footer1";
-import Footer2 from "@/components/sections/footer/Footer2";
-import ArticleWithSidebar from "@/components/sections/content/ArticleWithSidebar";
-import Pricing2 from "@/components/sections/pricing/Pricing2";
-import FeaturesCarousel from "@/components/sections/features/FeaturesCarousel";
-import { Features5 } from "@/components/sections/features";
+import { Features1, Features2, Features3, Features4, Features5, FeaturesCarousel } from "@/components/sections/features";
 import { Cards1, Cards2 } from "@/components/sections/cards";
 import { Categories } from "@/components/sections/categories";
-import { Testimonials3 } from "@/components/sections/testimonials";
-import Team3 from "@/components/sections/team/Team3";
-import Team1 from "@/components/sections/team/Team1";
-import Team2 from "@/components/sections/team/Team2";
+import { Testimonials1, Testimonials2, Testimonials3 } from "@/components/sections/testimonials";
+import { Login, Register } from "@/components/sections/auth";
+import { Faq1, Faq2 } from "@/components/sections/faq";
+import { Contact1, Contact2 } from "@/components/sections/contact";
+import { Careers1, Careers2 } from "@/components/sections/careers";
+import { CTA1 } from "@/components/sections/cta";
+import { Pricing1, Pricing2 } from "@/components/sections/pricing";
+import { Blog1 } from "@/components/sections/blog";
+import { ArticleWithSidebar } from "@/components/sections/content";
+import { Team1, Team2, Team3 } from "@/components/sections/team";
+import { Footer1, Footer2 } from "@/components/sections/footer";
 
 export default function Home() {
   return (
@@ -39,14 +24,15 @@ export default function Home() {
       <Hero2 />
       <Hero3 />
       <Hero4 />
-      <Testimonial1 />
+      <Testimonials1 />
       <Testimonials2 />
-      {/* <Features1 />
+      <Testimonials3 />
+      <Features1 />
       <Features2 />
       <Features3 />
       <Features4 />
-      <Register /> */}
-      {/* <Login />
+      <Register />
+      <Login />
       <Faq1 />
       <Faq2 />
       <Contact1 /> 
@@ -63,7 +49,6 @@ export default function Home() {
       <Cards1 />
       <Cards2 />
       <Categories />
-      {/* <Testimonials3 /> */}
       <Team1 />
       <Team2 />
       <Team3 />
