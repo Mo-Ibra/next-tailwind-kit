@@ -34,53 +34,57 @@ import { Footer1, Footer2 } from "@/components/sections/footer";
 import { Details1 } from "@/components/sections/details";
 import { Logos1 } from "@/components/sections/logos";
 import { Breadcrumb1 } from "@/components/sections/breadcrumb";
+import { Subscribe1 } from "@/components/sections/subscribe";
 
 export default function Home() {
   return (
-    <Container>
-      <Navbar1 />
-      {/* <Hero1 /> */}
-      {/* <Hero2 /> */}
-      {/* <Hero3 /> */}
-      {/* <Hero4 /> */}
-      {/* <Testimonials1 /> */}
-      {/* <Testimonials2 /> */}
-      {/* <Testimonials3 /> */}
-      {/* <Features1 /> */}
-      {/* <Features2 /> */}
-      {/* <Features3 /> */}
-      {/* <Features4 /> */}
-      {/* <Register /> */}
-      {/* <Login /> */}
-      {/* <Faq1 /> */}
-      {/* <Faq2 /> */}
-      {/* Faq3 from job board */}
-      {/* <Contact1 />  */}
-      {/* <Contact2 /> */}
-      {/* <Careers1 /> */}
-      {/* <Careers2 /> */}
-      {/* <CTA1 /> */}
-      {/* <Pricing1 /> */}
-      {/* <Pricing2 /> */}
-      {/* <Blog1 /> */}
-      {/* <ArticleWithSidebar /> */}
-      {/* <FeaturesCarousel /> */}
-      {/* <Features5 /> */}
-      {/* <Cards1 /> */}
-      {/* <Cards2 /> */}
-      {/* <CardsWithSidebar1 /> */}
-      {/* <CardsWithSidebar2 /> */}
-      {/* <Categories /> */}
-      {/* <Team1 /> */}
-      {/* <Team2 /> */}
-      {/* <Team3 /> */}
-      <Details1 />
-      <Logos1 />
-      {/* Breadcrumb */}
+    <>
+      <Container>
+        <Navbar1 />
+        {/* <Hero1 /> */}
+        {/* <Hero2 /> */}
+        {/* <Hero3 /> */}
+        {/* <Hero4 /> */}
+        {/* <Testimonials1 /> */}
+        {/* <Testimonials2 /> */}
+        {/* <Testimonials3 /> */}
+        {/* <Features1 /> */}
+        {/* <Features2 /> */}
+        {/* <Features3 /> */}
+        {/* <Features4 /> */}
+        {/* <Register /> */}
+        {/* <Login /> */}
+        {/* <Faq1 /> */}
+        {/* <Faq2 /> */}
+        {/* Faq3 from job board */}
+        {/* <Contact1 />  */}
+        {/* <Contact2 /> */}
+        {/* <Careers1 /> */}
+        {/* <Careers2 /> */}
+        {/* <CTA1 /> */}
+        {/* <Pricing1 /> */}
+        {/* <Pricing2 /> */}
+        {/* <Blog1 /> */}
+        {/* <ArticleWithSidebar /> */}
+        {/* <FeaturesCarousel /> */}
+        {/* <Features5 /> */}
+        {/* <Cards1 /> */}
+        {/* <Cards2 /> */}
+        {/* <CardsWithSidebar1 /> */}
+        {/* <CardsWithSidebar2 /> */}
+        {/* <Categories /> */}
+        {/* <Team1 /> */}
+        {/* <Team2 /> */}
+        {/* <Team3 /> */}
+      </Container>
       <Breadcrumb1 />
-      {/* Apply now or subscribe now */}
-      <Footer1 />
-      <Footer2 />
-    </Container>
+      <Container>
+        <Details1 />
+        <Logos1 />
+        <Subscribe1 />
+        <Footer1 />
+        <Footer2 />
+      </Container>
+    </>
   );
 }
