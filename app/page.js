@@ -15,12 +15,14 @@ import { Blog1 } from "@/components/sections/blog";
 import { ArticleWithSidebar } from "@/components/sections/content";
 import { Team1, Team2, Team3 } from "@/components/sections/team";
 import { Footer1, Footer2 } from "@/components/sections/footer";
+import { Details1 } from "@/components/sections/details";
 
 export default function Home() {
   return (
     <Container>
       <Navbar1 />
-      <Hero1 />
+      <Details1 />
+      {/* <Hero1 />
       <Hero2 />
       <Hero3 />
       <Hero4 />
@@ -55,7 +57,7 @@ export default function Home() {
       <Team2 />
       <Team3 />
       <Footer1 />
-      <Footer2 />
+      <Footer2 /> */}
     </Container>
   );
 }

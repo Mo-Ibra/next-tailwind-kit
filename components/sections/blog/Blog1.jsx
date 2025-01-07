@@ -34,7 +34,7 @@ const data = [
     summary:
       "Pellentesque eget quam ligula. Sed felis ante, consequat nec ultrices ut, ornare quis metus. Vivamus sit amet tortor vel enim sollicitudin hendrerit.",
     href: "#",
-    image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+    image: "https://shadcnblocks.com/images/block/placeholder-dark-2.svg",
   },
   {
     id: "item-4",
@@ -42,7 +42,7 @@ const data = [
     summary:
       "Pellentesque eget quam ligula. Sed felis ante, consequat nec ultrices ut, ornare quis metus. Vivamus sit amet tortor vel enim sollicitudin hendrerit.",
     href: "#",
-    image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+    image: "https://shadcnblocks.com/images/block/placeholder-dark-3.svg",
   },
   {
     id: "item-5",
