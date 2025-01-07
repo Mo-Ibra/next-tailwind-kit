@@ -3,7 +3,7 @@ import { Timer, Zap, ZoomIn } from "lucide-react";
 const Features3 = () => {
   return (
     <section className="py-32">
-      <div className="container">
+      <div className="container mx-auto">
         <p className="mb-4 text-sm text-muted-foreground lg:text-base">
           OUR VALUES
         </p>

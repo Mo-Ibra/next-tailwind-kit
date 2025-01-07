@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const CTA1 = () => {
   return (
     <section className="py-32">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="flex flex-col items-center rounded-lg bg-accent p-8 text-center md:rounded-xl lg:p-16">
           <h3 className="mb-3 max-w-3xl text-2xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
             Call to Action

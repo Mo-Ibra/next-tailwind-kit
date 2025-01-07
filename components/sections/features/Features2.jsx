@@ -17,7 +17,7 @@ import {
 const Features2 = () => {
   return (
     <section className="py-32">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="mx-auto flex flex-col gap-6 text-center">
           <h1 className="mb-6 text-pretty text-4xl font-semibold lg:text-5xl">
             This is where your feature goes

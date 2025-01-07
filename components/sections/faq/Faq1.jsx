@@ -32,7 +32,7 @@ const Faq1 = () => {
 
   return (
     <section className="py-32">
-      <div className="container">
+      <div className="container mx-auto">
         <h1 className="mb-4 text-3xl font-semibold md:mb-11 md:text-5xl">
           Frequently asked questions
         </h1>

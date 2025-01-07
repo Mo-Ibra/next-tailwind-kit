@@ -13,8 +13,8 @@ const Pricing2 = () => {
   const [isAnnually, setIsAnnually] = useState(false);
   return (
     <section className="py-32">
-      <div className="container">
-        <div className="mx-auto flex max-w-screen-xl flex-col gap-6">
+      <div className="container mx-auto ">
+        <div className="flex max-w-screen-xl flex-col gap-6">
           <h2 className="text-pretty text-center text-4xl font-bold lg:text-6xl">
             Pricing
           </h2>

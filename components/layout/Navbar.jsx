@@ -77,7 +77,7 @@ const subMenuItemsTwo = [
 const Navbar1 = () => {
   return (
     <section className="py-4">
-      <div className="container">
+      <div className="container mx-auto">
         <nav className="hidden justify-between lg:flex">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">

@@ -81,7 +81,7 @@ const Blog1 = () => {
   }, [carouselApi]);
   return (
     <section className="py-32">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="mb-8 flex flex-col justify-between md:mb-14 md:flex-row md:items-end lg:mb-16">
           <div>
             <p className="mb-6 text-xs font-medium uppercase tracking-wider">

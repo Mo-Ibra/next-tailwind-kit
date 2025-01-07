@@ -6,7 +6,7 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar";
 const Hero2 = () => {
   return (
     <section className="py-32">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="grid items-center gap-8 lg:grid-cols-2">
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <div className="mx-auto flex max-w-screen-lg flex-col gap-6">

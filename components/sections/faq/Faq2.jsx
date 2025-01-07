@@ -26,7 +26,7 @@ const faqs = [
 const Faq2 = () => {
   return (
     <section className="py-32">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="text-center">
           <Badge className="text-xs font-medium">FAQ</Badge>
           <h1 className="mt-4 text-4xl font-semibold">

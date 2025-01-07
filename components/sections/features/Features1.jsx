@@ -49,7 +49,7 @@ const reasons = [
 const Features1 = () => {
   return (
     <section className="py-32">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="mb-10 md:mb-20">
           <h2 className="mb-2 text-center text-3xl font-semibold lg:text-5xl">
             Why Work With Us?

@@ -6,9 +6,9 @@ import { cn } from "@/lib/utils";
 
 const Hero4 = () => {
   return (
-    <section className="relative overflow-hidden py-32">
-      <div className="container">
-        <div className="magicpattern absolute inset-x-0 top-0 -z-10 flex h-full w-full items-center justify-center opacity-100" />
+    <section className="py-32 relative overflow-hidden">
+      <div className="container mx-auto">
+        <div className="absolute inset-x-0 top-0 -z-10 flex h-full w-full items-center justify-center opacity-100" />
         <div className="mx-auto flex max-w-5xl flex-col items-center">
           <div className="z-10 flex flex-col items-center gap-6 text-center">
             <img
@@ -33,7 +33,7 @@ const Hero4 = () => {
                 Learn more <ExternalLink className="ml-2 h-4" />
               </Button>
             </div>
-            <div className="mt-20 flex flex-col items-center gap-4">
+            <div className="mt-4 flex flex-col items-center gap-4">
               <p className="text-center: text-muted-foreground lg:text-left">
                 Built with open-source technologies
               </p>

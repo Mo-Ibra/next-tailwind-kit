@@ -40,7 +40,7 @@ const departments = [
 const Careers2 = () => {
   return (
     <section className="py-32">
-      <div className="container">
+      <div className="container mx-auto">
         <h2 className="text-4xl font-medium md:text-6xl">Apply Now</h2>
         <p className="mt-6 whitespace-pre-wrap text-muted-foreground md:mb-20 md:text-lg">
           View our open roles.

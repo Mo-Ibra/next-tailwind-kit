@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 const Features4 = () => {
   return (
     <section className="py-32 grid justify-center">
-      <div className="container max-w-5xl">
+      <div className="container mx-auto max-w-5xl">
         <Tabs defaultValue="feature-1">
           <TabsList className="flex h-auto w-full flex-col gap-2 bg-background md:flex-row">
             <TabsTrigger

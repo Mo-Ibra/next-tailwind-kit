@@ -27,6 +27,9 @@ import { Features5 } from "@/components/sections/features";
 import { Cards1, Cards2 } from "@/components/sections/cards";
 import { Categories } from "@/components/sections/categories";
 import { Testimonials3 } from "@/components/sections/testimonials";
+import Team3 from "@/components/sections/team/Team3";
+import Team1 from "@/components/sections/team/Team1";
+import Team2 from "@/components/sections/team/Team2";
 
 export default function Home() {
   return (
@@ -38,15 +41,15 @@ export default function Home() {
       <Hero4 />
       <Testimonial1 />
       <Testimonials2 />
-      <Features1 />
+      {/* <Features1 />
       <Features2 />
       <Features3 />
       <Features4 />
-      <Register />
-      <Login />
+      <Register /> */}
+      {/* <Login />
       <Faq1 />
       <Faq2 />
-      <Contact1 />
+      <Contact1 /> 
       <Contact2 />
       <Careers1 />
       <Careers2 />
@@ -60,7 +63,10 @@ export default function Home() {
       <Cards1 />
       <Cards2 />
       <Categories />
-      <Testimonials3 />
+      {/* <Testimonials3 /> */}
+      <Team1 />
+      <Team2 />
+      <Team3 />
       <Footer1 />
       <Footer2 />
     </Container>
