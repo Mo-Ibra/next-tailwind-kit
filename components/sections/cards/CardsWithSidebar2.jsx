@@ -1,7 +1,7 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
 import { BookOpen, Users, ArrowRight, Search } from "lucide-react";
@@ -74,15 +74,15 @@ const categories = [
   { id: "marketing", label: "Marketing", count: 6 },
   { id: "meditation", label: "Meditation", count: 7 },
   { id: "music", label: "Music", count: 44 },
-]
+];
 
 const levels = [
   { id: "begining", label: "Begining" },
   { id: "intermediate", label: "Intermediate" },
   { id: "expert", label: "Expert" },
-]
+];
 
-const CardsWithSidebar1 = () => {
+const CardsWithSidebar2 = () => {
   const [price, setPrice] = useState([50]);
   return (
     <section className="py-32">
@@ -90,77 +90,63 @@ const CardsWithSidebar1 = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           <div className="col-span-3">
             {/* Left Content */}
-            <div className="grid grid-cols-1 gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {courses.map((course) => (
                 <Card key={course.id} className="overflow-hidden">
-                  <div className="grid md:grid-cols-[1fr,3fr]">
-                    <div className="p-3 md:pe-0 md:pb-3 pb-0 relative md:shrink-0">
-                      <Image
-                        src={course.image}
-                        alt={course.title}
-                        width={220}
-                        height={220}
-                        className="rounded-md size-full object-cover w-full"
-                      />
-                      <div className="absolute top-5 left-5 flex gap-2">
-                        <Badge variant="outline" className="cursor-pointer">
-                          Free
-                        </Badge>
-                        <Badge variant="outline" className="cursor-pointer">
-                          Event
-                        </Badge>
+                  <div className="relative">
+                    <Image
+                      src={course.image}
+                      alt={course.title}
+                      width={400}
+                      height={300}
+                      className="w-full h-48 object-cover"
+                    />
+                    <div className="absolute top-2 left-2 flex gap-2">
+                      <Badge variant="outline">Free</Badge>
+                      <Badge variant="outline">Event</Badge>
+                    </div>
+                    <div className="absolute bottom-4 right-4">
+                      <Badge
+                        variant="primary"
+                        className="text-lg font-semibold"
+                      >
+                        ${course.price}
+                      </Badge>
+                    </div>
+                  </div>
+                  <CardContent className="p-6">
+                    <div className="flex items-center gap-4 text-sm text-muted-foreground mb-3">
+                      <div className="flex items-center gap-1">
+                        <BookOpen className="w-4 h-4" />
+                        <span>{course.lessons} Lessons</span>
                       </div>
-                      <div className="absolute bottom-4 right-2">
-                        <Badge
-                          variant="secondary"
-                          className="text-sm font-semibold cursor-pointer"
-                        >
-                          ${course.price}
-                        </Badge>
+                      <div className="flex items-center gap-1">
+                        <Users className="w-4 h-4" />
+                        <span>{course.students} Students</span>
                       </div>
                     </div>
-
-                    <CardContent className="p-6">
-                      <div className="flex items-center gap-4 text-sm text-muted-foreground mb-3">
-                        <div className="flex items-center gap-1">
-                          <BookOpen className="w-4 h-4" />
-                          <span>{course.lessons} Lessons</span>
-                        </div>
-                        <div className="flex items-center gap-1">
-                          <Users className="w-4 h-4" />
-                          <span>{course.students} Students</span>
-                        </div>
-                      </div>
-                      <h3 className="text-xl font-semibold mb-2">
-                        {course.title}
-                      </h3>
-                      <p className="text-muted-foreground mb-4">
-                        {course.description}
-                      </p>
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-2">
-                          <Avatar>
-                            <AvatarImage
-                              src={course.instructor.avatar}
-                              width={32}
-                              height={32}
-                            />
-                            <AvatarFallback>CC</AvatarFallback>
-                          </Avatar>
-                          <span className="font-medium">
-                            {course.instructor.name}
-                          </span>
-                        </div>
-                        <Button
-                          variant="ghost"
-                          className=" hover:bg-gray-50 gap-2"
-                        >
-                          Explore
-                          <ArrowRight className="w-4 h-4" />
-                        </Button>
-                      </div>
-                    </CardContent>
-                  </div>
+                    <h3 className="text-xl font-semibold mb-2">
+                      {course.title}
+                    </h3>
+                    <p className="text-muted-foreground">
+                      {course.description}
+                    </p>
+                  </CardContent>
+                  <CardFooter className="p-6 pt-0 flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <Avatar>
+                        <AvatarImage src={course.instructor.avatar} width={32} height={32} />
+                        <AvatarFallback>CC</AvatarFallback>
+                      </Avatar>
+                      <span className="font-medium">
+                        {course.instructor.name}
+                      </span>
+                    </div>
+                    <Button variant="ghost" className="gap-2">
+                      Explore
+                      <ArrowRight className="w-4 h-4" />
+                    </Button>
+                  </CardFooter>
                 </Card>
               ))}
             </div>
@@ -246,4 +232,4 @@ const CardsWithSidebar1 = () => {
   );
 };
 
-export default CardsWithSidebar1;
+export default CardsWithSidebar2;

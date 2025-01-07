@@ -2,7 +2,7 @@ import Container from "@/components/layout/Container";
 import Navbar1 from "@/components/layout/Navbar";
 import { Hero1, Hero2, Hero3, Hero4 } from "@/components/sections/hero";
 import { Features1, Features2, Features3, Features4, Features5, FeaturesCarousel } from "@/components/sections/features";
-import { Cards1, Cards2 } from "@/components/sections/cards";
+import { Cards1, Cards2, CardsWithSidebar1, CardsWithSidebar2 } from "@/components/sections/cards";
 import { Categories } from "@/components/sections/categories";
 import { Testimonials1, Testimonials2, Testimonials3 } from "@/components/sections/testimonials";
 import { Login, Register } from "@/components/sections/auth";
@@ -15,7 +15,6 @@ import { Blog1 } from "@/components/sections/blog";
 import { ArticleWithSidebar } from "@/components/sections/content";
 import { Team1, Team2, Team3 } from "@/components/sections/team";
 import { Footer1, Footer2 } from "@/components/sections/footer";
-import CardsWithSidebar from "@/components/sections/cards/CardsWithSidebar";
 
 export default function Home() {
   return (
@@ -49,7 +48,8 @@ export default function Home() {
       <Features5 />
       <Cards1 />
       <Cards2 />
-      <CardsWithSidebar />
+      <CardsWithSidebar1 />
+      <CardsWithSidebar2 />
       <Categories />
       <Team1 />
       <Team2 />
