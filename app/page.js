@@ -15,6 +15,7 @@ import { Blog1 } from "@/components/sections/blog";
 import { ArticleWithSidebar } from "@/components/sections/content";
 import { Team1, Team2, Team3 } from "@/components/sections/team";
 import { Footer1, Footer2 } from "@/components/sections/footer";
+import CardsWithSidebar from "@/components/sections/cards/CardsWithSidebar";
 
 export default function Home() {
   return (
@@ -48,6 +49,7 @@ export default function Home() {
       <Features5 />
       <Cards1 />
       <Cards2 />
+      <CardsWithSidebar />
       <Categories />
       <Team1 />
       <Team2 />

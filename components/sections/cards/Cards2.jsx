@@ -73,7 +73,7 @@ function Cards2() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-6">
           {courses.map((course) => (
             <Card key={course.id} className="overflow-hidden">
               <div className="grid md:grid-cols-[2fr,3fr]">
