@@ -15,7 +15,7 @@ const ArticleWithSidebar = () => {
   ];
 
   return (
-    <section className="py-32">
+    <section className="py-20">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Left Content */}

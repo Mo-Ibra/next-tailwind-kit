@@ -35,6 +35,8 @@ import { Details1 } from "@/components/sections/details";
 import { Logos1 } from "@/components/sections/logos";
 import { Breadcrumb1 } from "@/components/sections/breadcrumb";
 import { Subscribe1 } from "@/components/sections/subscribe";
+import ArticleWithSidebar2 from "@/components/sections/content/ArticleWithSidebar2";
+import Testimonials4 from "@/components/sections/testimonials/Testimonials4";
 
 export default function Home() {
   return (
@@ -48,7 +50,8 @@ export default function Home() {
         <Testimonials1 />
         <Testimonials2 />
         <Testimonials3 />
-        <Features1 />
+        <Testimonials4 />
+        {/* <Features1 />
         <Features2 />
         <Features3 />
         <Features4 />
@@ -64,9 +67,10 @@ export default function Home() {
         <CTA1 />
         <Pricing1 />
         <Pricing2 />
-        <Blog1 />
+        <Blog1 /> */}
         <ArticleWithSidebar />
-        <FeaturesCarousel />
+        <ArticleWithSidebar2 />
+        {/* <FeaturesCarousel />
         <Features5 />
         <Cards1 />
         <Cards2 />
@@ -75,7 +79,7 @@ export default function Home() {
         <Categories />
         <Team1 />
         <Team2 />
-        <Team3 />
+        <Team3 /> */}
       </Container>
       <Breadcrumb1 />
       <Container>
