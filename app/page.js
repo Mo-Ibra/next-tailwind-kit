@@ -26,7 +26,7 @@ import { Faq1, Faq2, Faq3 } from "@/components/sections/faq";
 import { Contact1, Contact2 } from "@/components/sections/contact";
 import { Careers1, Careers2 } from "@/components/sections/careers";
 import { CTA1 } from "@/components/sections/cta";
-import { Pricing1, Pricing2 } from "@/components/sections/pricing";
+import { Pricing1, Pricing2, Pricing3, PricingFeatures } from "@/components/sections/pricing";
 import { Blog1, Blog2 } from "@/components/sections/blog";
 import { ArticleWithSidebar } from "@/components/sections/content";
 import { Team1, Team2, Team3 } from "@/components/sections/team";
@@ -65,8 +65,10 @@ export default function Home() {
         {/* <Careers1 /> */}
         {/* <Careers2 /> */}
         {/* <CTA1 /> */}
-        {/* <Pricing1 /> */}
-        {/* <Pricing2 /> */}
+        <Pricing1 />
+        <Pricing2 />
+        <Pricing3 />
+        <PricingFeatures />
         {/* <Blog1 /> */}
         <Blog2 />
         {/* <ArticleWithSidebar /> */}
