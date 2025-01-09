@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Check } from "lucide-react";
+import { Check, X } from "lucide-react";
 import React from "react";
 
 const plans = ["Hobby", "Basic", "Business", "Enterprise"];
@@ -163,13 +163,9 @@ function PricingFeatures() {
                           {typeof feature.values[plan] === "boolean" ? (
                             feature.values[plan] ? (
                               <Check
-                                className={`mx-auto h-4 w-4 ${
-                                  plan === "Business"
-                                    ? "text-white"
-                                    : "text-emerald-500"
-                                }`}
+                                className={`mx-auto h-4 w-4 text-emerald-500`}
                               />
-                            ) : null
+                            ) : <X className="mx-auto h-4 w-4 text-red-500" />
                           ) : (
                             <span>{feature.values[plan]}</span>
                           )}
